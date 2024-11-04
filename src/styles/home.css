@@ -32,7 +32,7 @@
 
 #cta_buttons a {
     text-decoration: none;
-    color: var(--color-neutral-1);;
+    color: var(--color-neutral-0);;
 }
 
 #phone_button {
@@ -52,20 +52,19 @@
 
 #banner {
     display: flex;
-    align-items: start;
+    align-items: end;
     justify-content: end;
     width: 70%;
     z-index: 2;
 }
 
 #banner img {
-    height: 100%;
-    width: fit-content;
+    width: 170%;
 }
 
 .shape {
     background-color: var(--color-primary-2);
-    width: 50%;
+    width: 45%;
     height: 100%;
     position: absolute;
     border-radius: 40% 30% 0% 20%;

@@ -21,7 +21,7 @@ $(document).ready(function() {
 
         sections.each(function(i) {
             const section = $(this);
-            const sectionTop = section.offset().top - 96;
+            const sectionTop = section.offset().top - 131;
             const sectionBottom = sectionTop+ section.outerHeight();
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
@@ -57,5 +57,10 @@ $(document).ready(function() {
         duration: 1000,
         distance: '20%'
     })
-});
 
+    const audio = new Audio("./src/javascript/som.mp3");
+
+    $('#play').click(function() {
+        audio.play();
+    });
+});

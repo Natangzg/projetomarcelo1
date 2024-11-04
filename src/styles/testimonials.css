@@ -53,6 +53,15 @@
     color: var(--color-primary-6);
 }
 
+#testimonials button {
+    color: var(--color-neutral-0);
+}
+
+.feedback-title {
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
 @media screen and (max-width: 1170px) {
     #testimonials {
         flex-direction: column;
